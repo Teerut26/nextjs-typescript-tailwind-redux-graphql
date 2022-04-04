@@ -1,4 +1,4 @@
-import { combineReducers, createStore } from "@reduxjs/toolkit";
+import { combineReducers } from "@reduxjs/toolkit";
 import countSlice, { initialStateInterface } from "./slice/counterSlice";
 
 export interface RootState {
