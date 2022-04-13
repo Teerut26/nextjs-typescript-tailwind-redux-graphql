@@ -1,5 +1,5 @@
 ## NextJS Template
-### Include
+### Includes
 - redux
 - tailwindcss
 - graphql
