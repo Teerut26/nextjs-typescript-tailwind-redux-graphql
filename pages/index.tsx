@@ -1,7 +1,7 @@
+import { RootState } from "@/store/root";
+import { countActions } from "@/store/slice/counterSlice";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../store/root";
-import { countActions } from "../store/slice/counterSlice";
 
 const Index: React.FC = () => {
     const count = useSelector((state: RootState) => state.countSlice.count);
